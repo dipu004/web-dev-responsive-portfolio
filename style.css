@@ -168,17 +168,32 @@
   /* Responsive Section */
   
    @media screen and (max-width: 576px){
-  .skills-container , .resume-container, footer ,.about-items{
+  .skills-container , .resume-container, footer ,.about-items, .banner, nav, nav > ul{
   flex-direction: column;
   }
   .resume-container{
   flex-direction: column;
+  }
+  .btn-primary{
+margin-bottom: 20px;
+  }
+  nav > ul {
+gap: 10px;
+  }
+  .banner{
+margin:20px ;
+  }
+  .header{
+background-image: none;
   }
   footer, .about{
    padding: 20px;
   }
   .footer-column{
   width: 100%;
+  }
+  .banner-profile-pic{
+width: 100%;
   }
   footer input[type="text"], footer input[type="email"], footer input[type="textarea"]{
     width: calc(100% - 40px);
